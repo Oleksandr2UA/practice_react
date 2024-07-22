@@ -50,8 +50,8 @@ export const DifficultyItem = styled.span`
         return 'yellow';
       case 'hard':
         return 'red';
+      default:
+        return 'white';
     }
-
-    return 'white';
   }};
 `;
