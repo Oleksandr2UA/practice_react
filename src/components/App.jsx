@@ -1,3 +1,13 @@
+import { RecipeList } from './RecipeList/RecipeList';
+import recipes from '../recipes.json';
+import { GlobalStyle } from './GlobalStyle';
+import { Layout } from './Layout/Layout';
+
 export const App = () => {
-  return <div>React homework template</div>;
+  return (
+    <Layout>
+      <RecipeList items={recipes} />
+      <GlobalStyle />
+    </Layout>
+  );
 };
