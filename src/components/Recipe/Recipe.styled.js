@@ -1,11 +1,15 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
-    border: 1px solid black;
-    border-radius: 4px;
-    padding 8px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 4px;
 `;
-
+export const Buttons = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+`;
 export const Image = styled.img`
   display: block;
   width: 100%;
